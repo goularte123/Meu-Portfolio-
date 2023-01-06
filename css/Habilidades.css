@@ -9,7 +9,9 @@
 
 
 .habilidades-pd h2 { 
-    color: aliceblue;
+    color: #fff;
+    font-size: 75px;
+    text-transform: capitalize;
     font-family:'Josefin Sans';
     text-align: center;
     padding-bottom: 70px;
@@ -54,7 +56,7 @@
 .conteiner-descricao {
     color: white;
     font-family:'Josefin Sans';
-    font-size: 20px;
+    font-size: 30px;
     max-width: 40%;
 }
 

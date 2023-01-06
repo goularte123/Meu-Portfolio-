@@ -576,3 +576,13 @@ a {
     
     }
 }
+::-webkit-scrollbar{
+    width: 20px;
+
+
+}
+::-webkit-scrollbar-thumb{
+    background-color: #f9004d;
+    border-radius:25px ;
+
+}
