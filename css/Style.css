@@ -7,7 +7,7 @@
 
 
 .background{
-    background: linear-gradient(63.13deg, #191919 51.04%, #101010 51.05%);
+    background: linear-gradient(63.13deg, #191919 45.04%, #0f0f0f 45.05%);
     height: 100vh;
     background-position: center;
     height: 100vh;
@@ -115,8 +115,8 @@ nav ul li a:hover{
 .Main{
     display:flex;
     position: absolute;
-    top: 50%;
-    left: 8%;  
+    top: 60%;
+    
    margin: 0 auto;
    
    display: flex;
@@ -127,10 +127,16 @@ nav ul li a:hover{
 transform: translateY(-50%);
 }
 
+.Main h2{
+    padding-top: 10%;
+    margin-left: -800px;
+    color: #fff;
+}
+
 .anime img {
-    width: 530px;
+    width: 430px;
     height: auto;
-    margin-left: 70%;
+    margin-left: 80%;
     position:relative;
     animation: desenhoAnimacao 3.1s infinite alternate-reverse linear;
 }
@@ -182,7 +188,7 @@ h4{
 h3{
 
     color: #fff;
-    font-size: 65px;
+    font-size: 50px;
     animation-name:animacao ;
     animation-duration:1s ;
     
@@ -243,9 +249,6 @@ h3{
    width: 1130px;
    margin: 0 auto;
    margin-right: 4px;
-}
-.main-sobre h1{
-    margin-left: -422px;
 }
 
 .Text-sobre h2{
@@ -579,11 +582,21 @@ a {
 ::-webkit-scrollbar{
     width: 20px;
    
-
+    background-color: transparent;
 
 }
 ::-webkit-scrollbar-thumb{
-    background-color: #f9004d;
+    background-color: transparent;
     border-radius:25px ;
 
+}
+.infomacoes{
+    padding: 20px;
+background-color: #000000;
+    color: #fff;
+    font-size: 25px;
+    text-transform: capitalize;
+    font-family:'Josefin Sans';
+    text-align: center;
+    padding-bottom: 30px;
 }
